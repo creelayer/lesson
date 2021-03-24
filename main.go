@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
-//import "github.com/na1al/lesson/pkg/geo"
-
+import (
+	"fmt"
+	"github.com/na1al/lesson/pkg/geo"
+)
 
 func main()  {
-	fmt.Print("Ok")
+	l := geo.Location{}
+	l.Id = 1;
+	fmt.Print(l.Id)
 }
