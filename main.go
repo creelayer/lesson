@@ -12,5 +12,7 @@ func main()  {
 
 	a := address.Adr{2}
 
+	fmt.Print("commit 1")
+
 	fmt.Print(a.Name)
 }
