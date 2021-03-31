@@ -16,7 +16,5 @@ func main()  {
 
 	fmt.Print("commit 2")
 
-	fmt.Print("commit 3")
-
 	fmt.Print(a.Name)
 }
