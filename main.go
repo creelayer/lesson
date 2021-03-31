@@ -14,5 +14,7 @@ func main()  {
 
 	fmt.Print("commit 1")
 
+	fmt.Print("commit 2")
+
 	fmt.Print(a.Name)
 }
